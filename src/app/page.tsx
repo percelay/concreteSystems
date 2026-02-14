@@ -34,7 +34,7 @@ export default function Home() {
       {/* Full-bleed Hero */}
       <section className="relative h-screen min-h-[600px] flex items-end bg-slate-dark overflow-hidden">
         <Image
-          src="/images/Gemini_Generated_Image_12sdh812sdh812sd.jpg"
+          src="/images/new hero.jpg"
           alt="CSI Concrete Systems facility"
           fill
           className="object-cover object-top opacity-60"
