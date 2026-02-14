@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Logo from "@/components/Logo";
 
 export default function Footer() {
   return (
@@ -8,9 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-safety-orange rounded flex items-center justify-center font-bold text-lg text-white">
-                CSI
-              </div>
+              <Logo className="h-10 w-10" />
               <div>
                 <p className="font-bold text-white text-lg leading-tight">CSI Concrete Systems, Inc.</p>
                 <p className="text-xs text-gray-400">The Power of Precision Precast</p>

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import Logo from "@/components/Logo";
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -19,9 +20,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo / Brand */}
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-safety-orange rounded flex items-center justify-center font-bold text-lg">
-              CSI
-            </div>
+            <Logo className="h-10 w-10" />
             <div className="hidden sm:block">
               <p className="font-bold text-lg leading-tight">CSI Concrete Systems</p>
               <p className="text-xs text-gray-400 leading-tight">The Power of Precision Precast</p>

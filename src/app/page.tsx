@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import ImagePlaceholder from "@/components/ImagePlaceholder";
 
 const divisions = [
@@ -7,24 +8,28 @@ const divisions = [
     description:
       "Specialized in Precision Precast Concrete Tunnel Liners (PCTL). Key focus: Mass transit, water conveyance, and utility tunnels.",
     href: "/divisions#tunnel",
+    image: "/images/tunnel.jpg",
   },
   {
     name: "CLECO Manufacturing",
     description:
       "The engineering arm. Designs and manufactures steel forms, automated carousel plants, and custom material handling systems.",
     href: "/divisions#cleco",
+    image: "/images/engineering.jpg",
   },
   {
     name: "Universal Uwall\u2122",
     description:
       "Advanced modular retaining wall systems for commercial and infrastructure projects.",
     href: "/divisions#uwall",
+    image: "/images/uwall.jpeg",
   },
   {
     name: "CSI Marine, LLC",
     description:
       "Specialized marine precast for piers, breakwaters, and coastal defense.",
     href: "/divisions#marine",
+    image: "/images/marineprecast.jpg",
   },
 ];
 
@@ -67,8 +72,14 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div>
-              <ImagePlaceholder label="CSI Facility Aerial View" />
+            <div className="aspect-video relative rounded overflow-hidden">
+              <Image
+                src="/images/hero.jpg"
+                alt="CSI Concrete Systems facility"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
         </div>
@@ -92,13 +103,22 @@ export default function Home() {
               <Link
                 key={div.name}
                 href={div.href}
-                className="group border border-gray-200 rounded-lg p-6 hover:border-safety-orange hover:shadow-lg transition-all"
+                className="group border border-gray-200 rounded-lg overflow-hidden hover:border-safety-orange hover:shadow-lg transition-all"
               >
-                <ImagePlaceholder label={div.name} />
-                <h3 className="text-lg font-bold mt-4 mb-2 group-hover:text-safety-orange transition-colors">
-                  {div.name}
-                </h3>
-                <p className="text-gray-600 text-sm">{div.description}</p>
+                <div className="aspect-video relative">
+                  <Image
+                    src={div.image}
+                    alt={div.name}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-lg font-bold mb-2 group-hover:text-safety-orange transition-colors">
+                    {div.name}
+                  </h3>
+                  <p className="text-gray-600 text-sm">{div.description}</p>
+                </div>
               </Link>
             ))}
           </div>
