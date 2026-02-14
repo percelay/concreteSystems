@@ -73,7 +73,7 @@ export default function Home() {
             </div>
             <div className="relative rounded overflow-hidden h-[28rem] md:h-[32rem]">
               <Image
-                src="/images/Gemini_Generated_Image_z9crc7z9crc7z9cr.png"
+                src="/images/Gemini_Generated_Image_12sdh812sdh812sd.jpg"
                 alt="CSI Concrete Systems facility"
                 fill
                 className="object-cover object-top"
