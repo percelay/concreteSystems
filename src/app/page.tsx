@@ -6,29 +6,29 @@ const divisions = [
     name: "CSI Tunnel Systems",
     description:
       "Specialized in Precision Precast Concrete Tunnel Liners (PCTL). Key focus: Mass transit, water conveyance, and utility tunnels.",
-    href: "/divisions#tunnel",
+    href: "http://www.csigroup.biz/tunnelsystems/",
     image: "/images/tunnel.jpg",
   },
   {
     name: "CLECO Manufacturing",
     description:
       "The engineering arm. Designs and manufactures steel forms, automated carousel plants, and custom material handling systems.",
-    href: "/divisions#cleco",
+    href: "http://www.clecoforms.com/",
     image: "/images/engineering.jpg",
   },
   {
     name: "Universal Uwall\u2122",
     description:
       "Advanced modular retaining wall systems for commercial and infrastructure projects.",
-    href: "/divisions#uwall",
+    href: "https://uwallsystems.com/",
     image: "/images/uwall.jpeg",
   },
   {
     name: "Clampcrete Construction",
     description:
       "The future of highway safety. Specialized in highway barrier and safety infrastructure systems.",
-    href: "/divisions#clampcrete",
-    image: "/images/marineprecast.jpg",
+    href: "http://www.clampcrete.com/",
+    image: "/images/highway.jpg",
   },
 ];
 
@@ -71,12 +71,12 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="aspect-video relative rounded overflow-hidden">
+            <div className="relative rounded overflow-hidden h-[28rem] md:h-[32rem]">
               <Image
-                src="/images/hero.jpg"
+                src="/images/Gemini_Generated_Image_z9crc7z9crc7z9cr.png"
                 alt="CSI Concrete Systems facility"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 priority
               />
             </div>
@@ -99,9 +99,11 @@ export default function Home() {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {divisions.map((div) => (
-              <Link
+              <a
                 key={div.name}
                 href={div.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group border border-gray-200 rounded-lg overflow-hidden hover:border-safety-orange hover:shadow-lg transition-all"
               >
                 <div className="aspect-video relative">
@@ -118,7 +120,7 @@ export default function Home() {
                   </h3>
                   <p className="text-gray-600 text-sm">{div.description}</p>
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
         </div>
