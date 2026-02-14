@@ -1,7 +1,3 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
-  "/case-studies/la-metro-purple-line/page": "app/case-studies/la-metro-purple-line/page.js",
-  "/divisions/page": "app/divisions/page.js",
-  "/solutions/page": "app/solutions/page.js"
+  "/page": "app/page.js"
 }

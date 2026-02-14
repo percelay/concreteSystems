@@ -1,7 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-slate-dark: #2F2F2F;
+  --color-slate-dark: #1A1A1A;
+  --color-slate-mid: #2F2F2F;
   --color-safety-orange: #FF8C00;
   --color-safety-orange-light: #FFA033;
+  --color-warm-gray: #F5F3F0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
