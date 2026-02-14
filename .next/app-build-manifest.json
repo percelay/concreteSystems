@@ -1,50 +1,20 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-decb145ea5426c4a.js",
-      "static/chunks/4bd1b696-c2b7f96abb040ef8.js",
-      "static/chunks/517-e2b92003dca3e2dd.js",
-      "static/chunks/main-app-7ec0b75f81da3fbd.js",
-      "static/chunks/app/_not-found/page-8a3059cad67b7028.js"
-    ],
     "/layout": [
-      "static/chunks/webpack-decb145ea5426c4a.js",
-      "static/chunks/4bd1b696-c2b7f96abb040ef8.js",
-      "static/chunks/517-e2b92003dca3e2dd.js",
-      "static/chunks/main-app-7ec0b75f81da3fbd.js",
-      "static/css/5263ead2406d45c5.css",
-      "static/chunks/173-c72f956e0e7ca46c.js",
-      "static/chunks/app/layout-c8725907576afc40.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/page": [
-      "static/chunks/webpack-decb145ea5426c4a.js",
-      "static/chunks/4bd1b696-c2b7f96abb040ef8.js",
-      "static/chunks/517-e2b92003dca3e2dd.js",
-      "static/chunks/main-app-7ec0b75f81da3fbd.js",
-      "static/chunks/173-c72f956e0e7ca46c.js",
-      "static/chunks/970-6df13871e49774f1.js",
-      "static/chunks/app/page-10ba43e37b906415.js"
-    ],
-    "/case-studies/la-metro-purple-line/page": [
-      "static/chunks/webpack-decb145ea5426c4a.js",
-      "static/chunks/4bd1b696-c2b7f96abb040ef8.js",
-      "static/chunks/517-e2b92003dca3e2dd.js",
-      "static/chunks/main-app-7ec0b75f81da3fbd.js",
-      "static/chunks/app/case-studies/la-metro-purple-line/page-4dcf1de95e830d86.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ],
     "/divisions/page": [
-      "static/chunks/webpack-decb145ea5426c4a.js",
-      "static/chunks/4bd1b696-c2b7f96abb040ef8.js",
-      "static/chunks/517-e2b92003dca3e2dd.js",
-      "static/chunks/main-app-7ec0b75f81da3fbd.js",
-      "static/chunks/app/divisions/page-c1447d0ba53d46ec.js"
-    ],
-    "/solutions/page": [
-      "static/chunks/webpack-decb145ea5426c4a.js",
-      "static/chunks/4bd1b696-c2b7f96abb040ef8.js",
-      "static/chunks/517-e2b92003dca3e2dd.js",
-      "static/chunks/main-app-7ec0b75f81da3fbd.js",
-      "static/chunks/app/solutions/page-4c5598ef091c4899.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/divisions/page.js"
     ]
   }
 }

@@ -4,7 +4,7 @@ import ImagePlaceholder from "@/components/ImagePlaceholder";
 export const metadata: Metadata = {
   title: "Our Divisions | CSI Concrete Systems",
   description:
-    "CSI's four strategic divisions: Tunnel Systems, CLECO Manufacturing, Universal Uwall, and CSI Marine — delivering vertically integrated precast concrete solutions.",
+    "CSI's four strategic divisions: Tunnel Systems, CLECO Manufacturing, Universal Uwall, and Clampcrete Construction — delivering vertically integrated precast concrete solutions.",
 };
 
 const divisions = [
@@ -48,16 +48,16 @@ const divisions = [
     ],
   },
   {
-    id: "marine",
-    name: "CSI Marine, LLC",
-    tagline: "Specialized Marine Precast",
+    id: "clampcrete",
+    name: "Clampcrete Construction",
+    tagline: "The Future of Highway Safety",
     description:
-      "CSI Marine, LLC provides specialized marine precast for piers, breakwaters, and coastal defense. Our marine-grade precast products are designed to withstand the harshest saltwater environments while providing reliable, long-lasting structural performance.",
+      "Clampcrete Construction is the future of highway safety. Specializing in highway barrier and safety infrastructure systems, Clampcrete delivers engineered solutions that protect motorists and construction workers on roadways across the country.",
     highlights: [
-      "Pier construction",
-      "Breakwater systems",
-      "Coastal defense structures",
-      "Marine-grade concrete engineering",
+      "Highway barrier systems",
+      "Safety infrastructure",
+      "Roadway protection solutions",
+      "Construction zone safety systems",
     ],
   },
 ];

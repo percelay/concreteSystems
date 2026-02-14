@@ -44,7 +44,7 @@ export default function Footer() {
               <li>CSI Tunnel Systems</li>
               <li>CLECO Manufacturing</li>
               <li>Universal Uwall&trade;</li>
-              <li>CSI Marine, LLC</li>
+              <li>Clampcrete Construction</li>
             </ul>
           </div>
         </div>

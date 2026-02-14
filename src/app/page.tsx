@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 
 const divisions = [
   {
@@ -25,10 +24,10 @@ const divisions = [
     image: "/images/uwall.jpeg",
   },
   {
-    name: "CSI Marine, LLC",
+    name: "Clampcrete Construction",
     description:
-      "Specialized marine precast for piers, breakwaters, and coastal defense.",
-    href: "/divisions#marine",
+      "The future of highway safety. Specialized in highway barrier and safety infrastructure systems.",
+    href: "/divisions#clampcrete",
     image: "/images/marineprecast.jpg",
   },
 ];
